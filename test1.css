@@ -1,0 +1,148 @@
+.bg{
+  height: 1060px;
+  width: 600px;
+  background-image: url(images/bg.jpg);
+  margin:auto;
+  position: relative;
+}
+.header{
+  height: 49px;
+  width: 560px;
+  background-color: transparent;
+  position: absolute;
+  top:32px;
+  left:20px;
+  display:flex;
+  justify-content: space-between;
+}
+.sign{
+  width: 150px;
+  height: 30px;
+  font-size: xx-large;
+  font-weight: 900;
+  color:#d3eaed;
+}
+
+.iconfont {
+  color:#8ac7d0;
+  font-size: xx-large;
+}
+.am{
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
+  border-width: 5px;
+  border-style: solid;
+  border-color:#95bccf;
+  position:absolute;
+  top:170px;
+  margin-left: 231PX;
+  background-color:#63a6bb;
+  opacity: 0.5;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.photo{
+  width: 70px;
+  height: 15px;
+  font-size:large ;
+  text-align: center;
+  color:ghostwhite;
+}
+.input{
+  width: 442px;
+  height: 300px;
+  position:absolute;
+  left:82px;
+  top:360px;
+  background-color: transparent;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.first{
+  height: 60px;
+  width: 442px;
+  color:white;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.second{
+  height: 60px;
+  width: 442px;
+  color:white;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.email{
+  height: 60px;
+  width: 442px;
+  color:white;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.code{
+  height:60px;
+  width:442px;
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.password{
+  width: 110px;
+  height: 20px;
+  color:white;
+  font-size: larger;
+}
+.show{
+  width: 60px;
+  height: 20px;
+  color:#3cffb5;
+}
+.wenzi{
+  font-size:x-large;
+}
+.sign_in{
+  width: 442px;
+  height: 75px;
+  position:absolute;
+  left:82px;
+  bottom:274px;
+  border-radius:75px 75px ;
+  background-color: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.char{
+  color:#706d9f;
+  font-size: x-large;
+}
+.last_char{
+  width: 275px;
+  height: 18px;
+  position:absolute;
+  left:164px;
+  bottom:219px;
+  display:flex;
+  justify-content: center;
+}
+.char1{
+  color:white;
+  font-size: larger;
+}
+.char2{
+  color:#3dfcb5;
+  font-size: larger;
+}
+.pwd{
+  width:150px ;
+  height: 20px;
+  align-self:flex-start;
+  margin-top: 4px;
+}
