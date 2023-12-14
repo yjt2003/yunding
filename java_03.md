@@ -78,6 +78,7 @@ Collection<String> coll = new ArrayList<>();//Collection是单列集合顶层接
 //正常创建对象就行
 //对应方法：
 coll.add("aaa");//会查看是否在集合中重复出现返回true或false
+coll.addAll("a","b","c");
 coll.clear();//清空集合
 coll.remove("aaa");//删除元素
 coll.contains("aaa");//底层依赖equals方法实现查找匹配,判断是否包含
@@ -86,7 +87,7 @@ int size = coll.size();//返回该集合的长度
 ```
 
 *****
-* LIST(有序，可重复，有索引):
+* LIST(有序，可重复，有索引):（collections接口的实现类）
   * ArrayList:
 ```java
 ArrayList<String> list =  new ArrayList<>();//创建集合（java的一种集合）一种字符串类型的集合的创建
